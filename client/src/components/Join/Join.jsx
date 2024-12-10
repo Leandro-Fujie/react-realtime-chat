@@ -1,5 +1,6 @@
 import React, {useRef} from 'react'
 import io from 'socket.io-client'
+import './Join.css';
 
 export default function Join({setChatVisibility,setSocket}) {
 

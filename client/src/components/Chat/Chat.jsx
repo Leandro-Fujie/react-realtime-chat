@@ -1,4 +1,5 @@
 import React, {useRef, useState, useEffect} from 'react'
+import './Chat.css';
 
 export default function Chat({socket}) {
 
